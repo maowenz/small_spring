@@ -1,3 +1,5 @@
+package com.mwz;
+
 import starter.SmallApplication;
 
 /**
@@ -9,7 +11,7 @@ public class Application {
     public static void main(String[] args) {
         System.out.println("hello,this is test small_spring!");
         System.out.println(Application.class.getPackage());
-        //SmallApplication.run(Application.class,args);
+        SmallApplication.run(com.mwz.Application.class,args);
     }
 
 }
